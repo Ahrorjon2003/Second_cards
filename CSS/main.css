@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #141414;
+    --grey: #1F1F1F;
+    --white: #FFF;
+    --green: #C4F82A;
+    --Grey: #333;
+    --inter: "Inter";
+}
+
+body {
+    background-color: black;
+}
+
+.site-cards {
+    /* display: flex;
+    align-items: center; */
+}
+
+.box {
+    margin-top: 60px;
+}
+
+.site-cards_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--grey);
+    width: 384px;
+    height: 610px;
+    border-radius: 8px;
+}
+
+.site-cards_card_img {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.site-cards_card_title {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--inter);
+
+}
+
+.site-cards_card_item {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.cards_card_item_link {
+    color: var(--green);
+    font-family: var(--inter);
+}
+
+.site-cards_card_text {
+    color: var(--white);
+    text-align: center;
+    margin: 24px;
+}
+
+.site-cards_card_btn {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 304px;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: var(--Grey);
+    margin-bottom: 8px;
+    font-family: var(--inter);
+
+}
+
+.button {
+    margin-bottom: 32px;
+}
+
+.site-cards_card_btn:active {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.site-cards_card_btn:hover {
+    cursor: pointer;
+}
+
+.site-cards_card_btn_text {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}

@@ -94,7 +94,7 @@ body {
 
 .site-cards_card_btn:active {
     background-color: var(--green);
-    color: var(--black);
+    
 }
 
 .site-cards_card_btn:hover {
@@ -108,4 +108,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+.site-cards_card_btn_text:active{
+color: var(--black);
 }
